@@ -11,7 +11,6 @@ const FormPendaftaran = () => {
       Alert.alert('Error', 'Harap isi semua field!');
     } else {
       Alert.alert('Berhasil', `Nama: ${nama}\nNPM: ${npm}\nNomor: ${nomor}`);
-      // Bisa juga kirim data ke server atau proses lain
     }
   };
 
